@@ -1,0 +1,15 @@
+.App{
+    text-align: center;
+    font-size: 30px;
+}
+.image{
+    z-index: -1;
+    top:0;
+    position: relative;
+}
+
+.nav{
+    position: absolute;
+    z-index: 1;
+    top:30px;
+}
