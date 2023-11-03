@@ -3,7 +3,7 @@ import React from 'react'
 const Beyond = () => {
   return (
     <div className='w-full bg-white py-16 px-4'>
-    <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
+    <div className='max-w-[100%] mx-auto grid md:grid-cols-2'>
         <img className='rounded-3xl w-[500px] mx-auto my-4' src='https://res.cloudinary.com/dyl3rncv3/image/upload/c_scale,q_90,w_400/v1675690301/elewa-group-website/Images/IMG_0764_twyo3k.png' alt='imagery'/>
         <div className='flex flex-col justify-center text-white'>
             <h2 className='font-semibold py-2 md:text-6xl sm:text-3xl text-2xl'>Beyond business</h2>

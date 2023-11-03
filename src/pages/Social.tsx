@@ -15,6 +15,11 @@ function Social() {
       <div>
         {/* Adding the image */}
         <img src='https://res.cloudinary.com/dyl3rncv3/image/upload/v1679910469/elewa-group-website/hero-Images/pexels-bg-edit_bb4znx.jpg' alt='pic' className='image1'/>
+        <div className='absolute top-50% z-1'>
+          <p>Scaling impact. Beyond the norm</p>
+          <h2 className='font-semibold'>Human and Environmental Impact</h2>
+          <h2 className='font-semibold'>through Social Enterprise</h2>
+        </div>
       </div>
       {/* Creating a div for the 'Info' Component and importing it */}
       <div className='info'>

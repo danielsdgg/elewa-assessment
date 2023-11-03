@@ -12,8 +12,8 @@ const Navbar = () => {
     }
 
   return (
-    <div className='nav flex justify-between items-center h-24 w-full mx-auto px-4 text-white'>
-        <span className='bg-black'>
+    <div className='nav backdrop-filter md:backdrop-brightness-90 flex justify-between items-center h-24 w-full mx-auto px-4 text-white'>
+        <span className=''>
             <img src='https://res.cloudinary.com/ddei3mzex/image/upload/v1698922465/Logo_White_arvoyx_h9kx9y.svg' alt='logo'/>
         </span>
         <ul className='hidden md:flex'>
