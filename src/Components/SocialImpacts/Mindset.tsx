@@ -10,7 +10,7 @@ const Mindset = () => {
                     Elewa has one shared objective; To unlock the true potential of individuals, teams, and the community. We believe strongly in the power of sharing ideas and continuously strive to grow each other and ourselves.Internally, but also within the larger communities in which we are active.
                 </p>
             </div>
-            <img className='w-[500px] mx-auto my-4' src='https://res.cloudinary.com/dyl3rncv3/image/upload/v1681308135/buffelo_i60xeu.jpg' alt='mind'/>
+            <img className='w-[500px] mx-auto rounded-3xl my-4' src='https://res.cloudinary.com/dyl3rncv3/image/upload/v1681308135/buffelo_i60xeu.jpg' alt='mind'/>
 
         </div>
     </div>

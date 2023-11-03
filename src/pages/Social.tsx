@@ -2,6 +2,11 @@ import React from 'react'
 import Info from '../Components/SocialImpacts/Info'
 import Business from '../Components/SocialImpacts/Business'
 import Mindset from '../Components/SocialImpacts/Mindset'
+import Beyond from '../Components/SocialImpacts/Beyond'
+import Knowledge from '../Components/SocialImpacts/Knowledge'
+import Projects from '../Components/SocialImpacts/Projects'
+import Message from '../Components/SocialImpacts/Message'
+import Footer from '../Components/SocialImpacts/Footer'
 
 function Social() {
   return (
@@ -22,6 +27,25 @@ function Social() {
       {/* Creating a div for the 'mindset' Component and importing it */}
       <div className="mindset">
         <Mindset/>
+      </div>
+      {/* Creating a div for the 'beyond' Component and importing it */}
+      <div className="beyond">
+        <Beyond/>
+      </div>
+      {/* Creating a div for the 'knowledge' Component and importing it */}
+      <div className="knowledge">
+        <Knowledge/>
+      </div>
+      {/* Creating a div for the 'projects' Component and importing it */}
+      <div className="projects">
+        <Projects/>
+      </div>
+      {/* Creating a div for the 'message' Component and importing it */}
+      <div className="message">
+        <Message/>
+      </div>
+      <div className="footer">
+        <Footer/>
       </div>
     </div>
   )
