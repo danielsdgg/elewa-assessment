@@ -8,8 +8,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+## styling
+Since i am using tailwindcss, i will be styling everything through the 'classnames' of the divs i'm creating. There could be some other styling of the App.css file
 
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Imports
+In the Components folder, There are 3 folders; each folder contains components for the pages being created. I will be creating the view and functionalities of the page, then importing the functions to the respective files on the pages folder
