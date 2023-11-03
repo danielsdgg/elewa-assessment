@@ -49,9 +49,6 @@ function Social() {
       <div className="message">
         <Message/>
       </div>
-      <div className="footer">
-        <Footer/>
-      </div>
     </div>
   )
 }

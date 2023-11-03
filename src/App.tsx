@@ -5,6 +5,7 @@ import Social from './pages/Social';
 import About from './pages/About';
 import Invest from './pages/Invest';
 import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/invest' element={<Invest/>}/>
       </Routes>
+      <Footer/>
       </BrowserRouter>
       
     </div>
