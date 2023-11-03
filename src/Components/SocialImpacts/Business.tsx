@@ -2,6 +2,7 @@ import React from 'react'
 
 const Business = () => {
   return (
+    // Creating and adding stylings to our 'business' section then exporting the function to the main page of Social Impacts page which is located at 'social.tsx'
     <div className='w-full bg-black py-16 px-4'>
         <div className='max-w-[100%] mx-auto grid md:grid-cols-2'>
             <img className='w-[500px] rounded-3xl mx-auto my-4' src='https://res.cloudinary.com/dyl3rncv3/image/upload/v1681306013/lady-impact_rnc9jy.jpg' alt='imagery'/>

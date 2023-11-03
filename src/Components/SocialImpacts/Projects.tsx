@@ -2,6 +2,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
+    // Creating and adding stylings to our 'projects' section then exporting the function to the main page of Social Impacts page which is located at 'social.tsx'
     <div className='w-full bg-white py-16 px-4'>
         <h2 className='text-black text-center pt-16 pb-20 text-5xl'>Some of our impact projects</h2>
         <div className='flex justify-between p-4'>

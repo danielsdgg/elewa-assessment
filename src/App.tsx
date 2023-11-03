@@ -13,6 +13,7 @@ function App() {
       <BrowserRouter>
       {/* parsing the navbar component to our primary */}
       <Navbar/>
+      {/* The various routes for helping us navigate through our website */}
       <Routes>
         <Route path='/' element={<Social/>}/>
         <Route path='/about' element={<About/>}/>

@@ -2,6 +2,7 @@ import React from 'react'
 
 const Columns = () => {
   return ( 
+    // Creating and adding stylings to our 'columns' section then exporting the function to the main page of About  page which is located at 'about.tsx'
     <div className='w-full bg-white py-16 px-4'>
         <div className='max-w-[100%] mx-auto grid md:grid-cols-3 justify-between '>
             <div className='flex flex-col justify-center text-black'>

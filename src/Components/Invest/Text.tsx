@@ -2,6 +2,7 @@ import React from 'react'
 
 const Text = () => {
   return (
+    // Creating and adding stylings to our 'text' section then exporting the function to the main page of Invest page which is located at 'invest.tsx'
     <div className='w-full bg-white py-16 px-4'>
         <div className='max-w-[100%] mx-auto grid md:grid-cols-2'>
             <div className='flex flex-col justify-center text-black'>

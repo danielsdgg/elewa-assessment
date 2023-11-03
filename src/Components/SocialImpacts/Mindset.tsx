@@ -2,6 +2,7 @@ import React from 'react'
 
 const Mindset = () => {
   return (
+    // Creating and adding stylings to our 'mindset' section then exporting the function to the main page of Social Impacts page which is located at 'social.tsx'
     <div className='w-full bg-gray-100 py-16 px-4'>
         <div className='max-w-[100%] mx-auto grid md:grid-cols-2'>
             <div className='flex flex-col justify-center text-black'>

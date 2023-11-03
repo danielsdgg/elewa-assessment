@@ -2,6 +2,7 @@ import React from 'react'
 
 const Figures = () => {
   return (
+    // Creating and adding stylings to our 'figures' section then exporting the function to the main page of Invest page which is located at 'invest.tsx'
     <div className=''>
         <h2>Key figures</h2>
         <div className='flex justify-center grid-cols-4'>
@@ -52,8 +53,6 @@ const Figures = () => {
 
             </div>
             </div>
-            
-            
         </div>
   )
 }

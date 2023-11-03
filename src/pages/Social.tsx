@@ -6,12 +6,13 @@ import Beyond from '../Components/SocialImpacts/Beyond'
 import Knowledge from '../Components/SocialImpacts/Knowledge'
 import Projects from '../Components/SocialImpacts/Projects'
 import Message from '../Components/SocialImpacts/Message'
-import Footer from '../Components/SocialImpacts/Footer'
 
 function Social() {
+  // The website page of Social Impacts
   return (
-    // No need of importing the Navbar Component since it has already been parsed from the main file where our application is running from (App.tsx)
+    // No need of importing the Navbar and Footer Components since it has already been parsed from the main file where our application is running from (App.tsx)
     <div>
+      {/* All the Features of the Social Impacts page have been created on 'socialimpacts' folder which is under the components folder; Then from here we are just importing the functions and parsing them here (our main page for Social Impacts) */}
       <div>
         {/* Adding the image */}
         <img src='https://res.cloudinary.com/dyl3rncv3/image/upload/v1679910469/elewa-group-website/hero-Images/pexels-bg-edit_bb4znx.jpg' alt='pic' className='image1'/>
